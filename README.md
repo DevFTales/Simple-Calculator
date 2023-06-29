@@ -21,10 +21,10 @@ Este é um projeto de calculadora simples desenvolvido em HTML, CSS e JavaScript
 7. Pressione o botão de apagar para remover o último caractere inserido.
 
 
-Simple Calculator
+# Simple Calculator
 This is a simple calculator project developed using HTML, CSS, and JavaScript. The calculator allows performing basic mathematical operations such as addition, subtraction, multiplication, division, and percentage calculation.
 
-Features
+## Features
 - Perform basic mathematical operations: addition (+), subtraction (-), multiplication (X), and division (÷).
 - Calculate the percentage of a value.
 - Delete one character at a time.
@@ -32,14 +32,14 @@ Features
 - Restrict the input of invalid characters.
 
 
-How to Use
+## How to Use
 
 1. Download or clone this repository.
 2. Open the index.html file in a web browser.
-3.Use the calculator buttons to input desired numbers and operators.
-4.Press the equals (=) button to get the result of the operation.
-5.Use the percentage (%) button to calculate the percentage of a value.
-6.Press the AC button to clear the calculator display.
-7.Press the delete button to remove the last entered character.
+3. Use the calculator buttons to input desired numbers and operators.
+4. Press the equals (=) button to get the result of the operation.
+5. Use the percentage (%) button to calculate the percentage of a value.
+6. Press the AC button to clear the calculator display.
+7. Press the delete button to remove the last entered character.
 
 

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="Calculator">
+        <form>
+            <div class="display">
+                <input type="text" id="display" onkeydown="validateNumber(event)">
+            </div>
+            <div>
+                <input type="button" value="AC" onclick="clearDisplay()"> 
+                <button class="icon-button"><i class="fas fa-backspace fa-regular"></i></button>
+                <input type="button" value="÷"  onclick="appendChar('÷')">
+                <input type="button" value="%" id="percentage-button"  onclick="appendChar('%')" class="percentage-button">
+            </div>
+            <div>
+                <input type="button" value="7"  onclick="appendChar('7')">
+                <input type="button" value="8"  onclick="appendChar('8')">
+                <input type="button" value="9"  onclick="appendChar('9')">
+                <input type="button" value="X"  onclick="appendChar('X')">
+            </div>
+            <div>
+                <input type="button" value="4" onclick="appendChar('4')">
+                <input type="button" value="5" onclick="appendChar('5')">
+                <input type="button" value="6" onclick="appendChar('6')">
+                <input type="button" value="-" onclick="appendChar('-')">
+            </div>
+            <div>
+                <input type="button" value="1" onclick="appendChar('1')">
+                <input type="button" value="2" onclick="appendChar('2')">
+                <input type="button" value="3" onclick="appendChar('3')">
+                <input type="button" value="+" onclick="appendChar('+')">
+            </div>
+            <div>
+                <input type="button" value="00" onclick="appendChar('00')">
+                <input type="button" value="0"  onclick="appendChar('0')">
+                <input type="button" value="=" onclick="calculate()" class="equal">
+            </div>
+        </form>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
